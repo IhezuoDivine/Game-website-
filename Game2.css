@@ -70,3 +70,9 @@ button{
 body:has(.formcontainer:target) section {
   display: none;
 }
+#errormessage{
+  padding-top: 5%;
+}
+#errormessage1{
+  padding-top: 5%;
+}
