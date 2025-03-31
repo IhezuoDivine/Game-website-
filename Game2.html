@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="Game2.css">
+  </head>
+  <body>
+  <section>
+    <div class="logincontainer" id="logincontainer">
+      <h1>Welcome Gamers</h1>
+      <a href="#signin">Sign In</a>
+      <a href="#signup">Sign Up</a>
+      <a href="Game.html">Back to Home</a>
+    </div>
+  </section>
+    <div id="signin" class="formcontainer">
+     <h1>Sign In</h1>
+
+     <form id="signinform">
+
+      <label for="email"></label>
+      <input type="email" name="email" id="email" placeholder="Email">
+
+      <label for="password"></label>
+      <input type="password" name="password" id="password" placeholder="password">
+     </form>
+
+     <button id="sign in">Log In</button>
+
+     <p>Dont have an account?
+      <a href="#signup">Signup</a>
+     </p>
+     <a href="#logincontainer." class="back">Back to Home</a><br><b></b>
+
+      <p id="errormessage" style="color:red;"></p>
+
+    </div>
+
+    <div id="signup" class="formcontainer">
+     <h1>Sign Up</h1>
+
+     <form id="signupform">
+      <label for="firstname"></label>
+      <input type="text" name="firstname" id="firstname" placeholder="FirstName">
+
+      <label for="lastname"></label>
+      <input type="text" name="last" id="lastname" placeholder="LastName">
+
+      <label for="email"></label>
+      <input type="email" name="email" id="email" placeholder="Email">
+
+      <label for="password"></label>
+      <input type="password" name="password" id="password" placeholder="Password">
+    </form>
+
+      <button id="signupbtn">Submit</button>
+
+      <p>Already have an account?<a href="#signin">Sign In</a></p>
+
+      <a href="#logincontainer" class="back">Back to Home</a> <br> <br>
+
+      <p id="errormessage" style="color:red;"></p>
+    </div>
+  </body>
+</html>
