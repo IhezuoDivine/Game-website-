@@ -46,26 +46,7 @@ section{
   min-height: 100vh;
   min-width: 100vw;
 }
-.landingpage{
-  background-image:url("../DeFi image/IMG_36961.png");
-  background-size:cover;
-  background-repeat: no-repeat;
-  min-height: 100vh;
-  min-width: 100vw;
-  padding: 0 auto;
-  margin: 0 auto;
-  background-color:var(--bg-color);
-  padding-top: 10%;
-}
-.h1lp{
-  text-align: center;
-  align-items: center;
-  font-size: 4rem;
-  padding-top: 20%;
-  color: var(--main-color);
-}
 #menu{
-  display: inline-block;
   text-align:left;
   align-items:left;
   background-color: hsl(0, 0%, 20%);
@@ -85,6 +66,7 @@ section{
   text-align: center;
   align-items: center;
   width:100%;
+  color: black;
 }
 #searchResults {
   padding-left: 5%;
@@ -124,10 +106,92 @@ ul h3 {
 }
 #circleuser{
   min-height: 100vh;
-  padding: 5%;
-  display:inline-block;
+  margin-top: 15%;
+  padding:20% 5%;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  background-color:var(--second-bg-color);
+}
+.minimize{
+  align-items: right;
+  text-align: right ;
+  font-size: 3rem;
+  float: right;
   width: 100%;
 }
+.googlebtn {
+  background-color:white;
+  color:black;
+  padding: 10px 15px;
+  width: 80%;
+  margin-top:5%;
+  font-size: 1rem;
+  border-radius: 50px;
+}
+.googlebtn i{
+  color: var(--main-color);
+}
 #circleuser h1{
-  
+  margin-bottom: 10%;
+}
+#circleuser p{
+  padding-top: 10%;
+}
+.Comment {
+  padding-top: 10%;
+  align-items: left;
+  text-align: left;
+}
+.Comment span{
+  color: var(--main-color);
+  font-weight: 900;
+}
+.iconbars{
+  display: none;
+}
+:target{
+  display:inline-block;
+}
+:target ~ section{
+  display: none;
+}
+body:has(.iconbars:target) .section{
+  display: none;
+}
+.landingpage{
+  background-image: url("../DeFi image/IMG_36961.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100vw; 
+  padding: 0 auto; 
+  margin: 0 auto;
+  background-color: var (--bg-color) ; 
+  padding-top: 10%;
+  padding-bottom: 20%;
+}
+ .h1lp{
+  text-align: center; 
+  align-items: center; 
+  font-size: 4rem; 
+  padding-top: 20%; 
+  color:hsl(300, 100%, 75%);
+}
+.landingpage p {
+  font-size:3rem;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  padding-top: 10%;
+  margin-left: 5%;
+}
+.landingpage a {
+  border: hidden;
+  background-color: var(--main-color);
+  color: var(--bg-color);
+  border-radius: 50px;
+  padding: 10px 50px;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
