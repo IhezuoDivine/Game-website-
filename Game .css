@@ -327,3 +327,22 @@ section {
     width:30%;
   }
 }
+.homebar a{
+  display:block;
+  width: 100%;
+  margin: 2% 0 2% 5%;
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ a:hover{
+  color: var(--main-color);
+ }
+ a:active{
+  color: hsl(300, 100%, 45%);
+ }
+ .iconbars i :hover{
+  color: hsl(300, 100%, 25%);
+ }
+ .iconbars i :active{
+  color: hsl(300, 100%, 45%);
+ }
